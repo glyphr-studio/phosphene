@@ -1,5 +1,5 @@
 {
-  "name": "event-stream",
+  "name": "xml-event-stream",
   "version": "0.1-alpha",
   "description": "XML-structured event streams",
   "main": "EventStream.js",
