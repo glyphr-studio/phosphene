@@ -1,0 +1,25 @@
+{
+  "name": "event-stream",
+  "version": "0.1-alpha",
+  "description": "XML-structured event streams",
+  "main": "EventStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "maintainers": [
+    {
+      "email": "yuokhi@yahoo.com",
+      "name": "mechanicious"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-flow-strip-types": "^6.7.0",
+    "jquery": "^2.2.3",
+    "script-loader": "^0.7.0",
+    "webpack": "^1.13.0"
+  }
+}
