@@ -1,5 +1,5 @@
 import WindowRegister from "./support/WindowRegister";
-import EventUnit from "script!./jqueryEventUnit/EventUnit";
+import EventUnit from "./jqueryEventUnit/EventUnit";
 
 export default class EventStream {
   _windowRegister;

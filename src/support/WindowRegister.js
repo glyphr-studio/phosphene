@@ -32,7 +32,7 @@ export default class WindowRegister {
   }
 
   detachStatic(object) {
-    for (sObject in window[this._rootObjectName][this._staticRootObjectName]) {
+    for (var sObject in window[this._rootObjectName][this._staticRootObjectName]) {
       var current = window[this._rootObjectName][this._staticRootObjectName][sObject];
       if (current === object) {
         delete window[this._rootObjectName][this._staticRootObjectName][sObject];

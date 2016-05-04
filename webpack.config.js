@@ -1,11 +1,11 @@
 var path = require('path');
 
 module.exports = {
-  entry: "./src/main.js",
+  entry: "./src/EventStream.js",
   devtool: "source-map",
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: "bundle.js"
+    filename: "xml-event-stream.js"
   },
   module: {
     loaders: [
